@@ -5,7 +5,7 @@ import '../styles/style.css'
 const Nav = () => {
   return (
     <>
-    <section class="c-nav"> {/*container nav*/}
+    <section className="c-nav"> {/*container nav*/}
       <img src='#' alt='logo-melodia'/>
       <Link to="/" className="nav-link">Home</Link>
       <Link to="#" className="nav-link">Planos</Link>
