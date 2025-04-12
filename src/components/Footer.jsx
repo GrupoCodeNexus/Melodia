@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-    <div class="container-rodape">
+    <div class="c-rodape"> {/*container rodape*/}
       <img src='#' alt='logo-melodia'/>
       <div class="section-contato">
         <h3>Contato</h3>
@@ -24,9 +24,11 @@ const Footer = () => {
         <a href='#'><p>Melodia Gratuito</p></a>
       </div>
     </div>
-    <img src="#" alt='logo-instagram'/>
-    <img src="#" alt='logo-facebook'/>
-    <img src="#" alt='logo-x'/>
+    <div class="icons-socials">
+      <img src="#" alt='logo-instagram'/>
+      <img src="#" alt='logo-facebook'/>
+      <img src="#" alt='logo-x'/>
+    </div>
     <div class="section-pdp"> {/*section política de privacidade*/}
         <a href='#'>Política de privacidade</a>
         <a href='#'>Segurança e Centro de Privacidade</a>
