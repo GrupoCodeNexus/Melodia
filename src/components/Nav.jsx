@@ -5,10 +5,13 @@ import '../styles/style.css'
 const Nav = () => {
   return (
     <>
-    <Link to="/" className="nav-link">Home</Link>
-    <Link to="#" className="nav-link">Planos</Link>
-    <Link to="#" className="nav-link">Depoimentos</Link>
-    <Link to="#" className="nav-link">Contato</Link>
+    <section class="c-nav"> {/*container nav*/}
+      <img src='#' alt='logo-melodia'/>
+      <Link to="/" className="nav-link">Home</Link>
+      <Link to="#" className="nav-link">Planos</Link>
+      <Link to="#" className="nav-link">Depoimentos</Link>
+      <Link to="#" className="nav-link">Contato</Link>
+    </section>
     </>
   )
 }
