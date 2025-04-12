@@ -10,6 +10,9 @@ const Home = () => {
           <h1>Melodia</h1>
           <p>Sua Música, Sua Forma</p>
           <button class="#">Ouvir Agora</button>
+          <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+            Clique aqui
+          </button>
         </div>
 
         {/*TAILWIND/sessão apresentação:
