@@ -8,24 +8,28 @@
 }
 
 /*nav*/
-.c-nav{
-    background-color: bisque;
+.Nav{
+    padding: 3rem;
+    margin-top: -4%;
 }
 
 
-/**/
-
+/*Home*/
+.btn-perso{
+    padding: 8px;
+    margin-top: 2%;
+}
 
 
 /*footer*/
 .c-rodape{
-    background-color: brown;
+    background-color: rgb(42, 165, 58);
 }
 
 .section-pdp{
-    background-color: brown;
+    background-color: rgb(18, 161, 18);
 }
 
 .icons-socials{
-    background-color: brown;
+    background-color: rgb(42, 165, 63);
 }
