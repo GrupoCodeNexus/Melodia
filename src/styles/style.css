@@ -1,0 +1,30 @@
+/*reset CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+/*nav*/
+.c-nav{
+    background-color: bisque;
+}
+
+
+/**/
+
+
+
+/*footer*/
+.c-rodape{
+    background-color: brown;
+}
+
+.section-pdp{
+    background-color: brown;
+}
+
+.icons-socials{
+    background-color: brown;
+}
