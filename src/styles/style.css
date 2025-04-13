@@ -18,8 +18,16 @@
 .btn-perso{
     padding: 8px;
     margin-top: 2%;
+    transition: transform 0.3s ease;
 }
 
+.btn-perso:hover{
+    transform: scale(1.05);
+}
+
+.btn-nav{
+    padding: 5px !important;
+}
 
 /*footer*/
 .c-rodape{

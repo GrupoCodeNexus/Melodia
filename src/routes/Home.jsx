@@ -14,24 +14,24 @@ const Home = () => {
             />
 
       {/* Overlay para o conteúdo */}
-          <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
+          <div className="absolute bg-black/50 backdrop-blur-sm inset-0 bg-opacity-30 z-10" />
 
       {/* Conteúdo sobre a imagem */}
           <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-white text-center px-4">
             <nav className="Nav absolute top-0 left-0 w-full flex items-center justify-between p-4 text-white">
               <img src='https://avatars.githubusercontent.com/u/204507479?s=200&v=4'
               alt='logo-melodia'/>
-              <ul className="flex gap-6">
+              <ul className="flex gap-6 items-center">
                 <li><a href='#' className='transition ease-out duration-700 hover:text-green-500'>Benefícios</a></li>
                 <li><a href='#' className='transition ease-out duration-700 hover:text-green-500'>Depoimentos</a></li>
                 <li><a href='#' className='transition ease-out duration-700 hover:text-green-500'>Contato</a></li>
-                <li><a href='#' className='bg-green-600 btn-perso rounded transition ease-out duration-700 hover:bg-green-800'>Planos</a></li>
+                <li><a href='#' className='btn-nav inline-block bg-green-600 rounded px-5 py-2 transition transform duration-300 hover:scale-105 bg-gradient-to-r from-cyan-800 to-lime-500 drop-shadow-lg hover:bg-green-800'>Planos</a></li>
               </ul>
             </nav>
 
-          <h1 className="text-5xl font-bold mb-4">Melodia</h1>
+          <h1 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-lime-500 drop-shadow-lg animate-pulse">Melodia</h1>
           <p className="text-xl mb-6">Sua Música, Sua Forma</p>
-          <button className="btn-perso bg-green-600 hover:bg-green-700 text-white font-bold rounded">
+          <button className="btn-perso bg-green-600 bg-gradient-to-r from-cyan-800 to-lime-500 drop-shadow-lg hover:cursor-pointer text-white rounded">
             Ouvir Agora
           </button>
         </div>
