@@ -52,8 +52,21 @@
 
 
 
+.c-rdp form,h2{
+    padding: 20px;
+}
 
+.c-rdp form label,input{
+    padding: 10px;
+}
 
+.c-rdp form button{
+    padding: 5px;
+}
+
+.c-rdp form button{
+    margin-top: 5%;
+}
 
 .ring-gradient-verde {
     border-image: linear-gradient(to right, green, lightgreen) 1;

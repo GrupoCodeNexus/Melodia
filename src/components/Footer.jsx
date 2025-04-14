@@ -7,7 +7,7 @@ const Footer = () => {
     <>
 <div className='c-rdp'>
 <div class="min-h-screen bg-gray-900 flex items-center justify-center py-8 px-2 sm:px-6 lg:px-8">
-  <div class="bg-gray-600 shadow-md rounded-lg px-4 pt-2 pb-4 mb-2 w-full max-w-md">
+  <div class="border-2 shadow-md border-lime-500 bg-gray-900 shadow-md rounded-lg px-4 pt-2 pb-4 mb-2 w-full max-w-md">
     <h2 class="block text-gray-100 text-2xl font-bold mb-6 text-center">
       Entre em Contato
     </h2>
@@ -16,22 +16,22 @@ const Footer = () => {
         <label class="block text-white text-sm font-bold mb-2" for="nome">
           Nome
         </label>
-        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none focus:shadow-outline" id="nome" type="text" placeholder="Digite seu nome"/>
+        <input class="shadow appearance-none border border-lime-500 rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none focus:shadow-outline" id="nome" type="text" placeholder="Digite seu nome"/>
       </div>
       <div class="mb-4">
         <label class="block text-white text-sm font-bold mb-2" for="email">
           Email
         </label>
-        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-200 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Digite seu email"/>
+        <input class="shadow-md appearance-none border border-lime-500 rounded w-full py-2 px-3 text-gray-200 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Digite seu email"/>
       </div>
       <div class="mb-4">
         <label class="block text-white text-sm font-bold mb-2" for="mensagem">
           Mensagem
         </label>
-        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none focus:shadow-outline" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+        <textarea class="shadow appearance-none border border-lime-500 rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none focus:shadow-outline" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
       </div>
       <div class="flex items-center justify-between">
-        <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+        <button class="bg-gradient-to-r from-green-700 to-lime-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
           Enviar Mensagem
         </button>
       </div>
