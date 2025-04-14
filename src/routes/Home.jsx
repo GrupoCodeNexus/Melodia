@@ -25,13 +25,13 @@ const Home = () => {
                 <li><a href='#' className='transition ease-out duration-700 hover:text-green-500'>Benefícios</a></li>
                 <li><a href='#' className='transition ease-out duration-700 hover:text-green-500'>Depoimentos</a></li>
                 <li><a href='#' className='transition ease-out duration-700 hover:text-green-500'>Contato</a></li>
-                <li><a href='#' className='btn-nav inline-block bg-green-600 rounded px-5 py-2 transition transform duration-300 hover:scale-105 bg-gradient-to-r from-cyan-800 to-lime-500 drop-shadow-lg'>Planos</a></li>
+                <li><a href='#' className='btn-nav inline-block bg-gradient-to-r from-green-800 to-lime-500 rounded px-5 py-2 transition transform duration-300 hover:scale-105 drop-shadow-lg'>Planos</a></li>
               </ul>
             </nav>
 
-          <h1 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-lime-500 drop-shadow-lg animate-pulse">Melodia</h1>
+          <h1 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-lime-500 drop-shadow-lg animate-pulse">Melodia</h1>
           <p className="text-xl mb-6">Sua Música, Sua Forma</p>
-          <button className="btn-perso bg-green-600 bg-gradient-to-r from-cyan-800 to-lime-500 drop-shadow-lg hover:cursor-pointer text-white rounded">
+          <button className="btn-perso bg-green-600 bg-gradient-to-r from-green-900 to-lime-500 drop-shadow-lg hover:cursor-pointer text-white rounded">
             Ouvir Agora
           </button>
         </div>
@@ -56,17 +56,17 @@ const Home = () => {
         podemos colocar cards em algum tipo de carrossel manual
         onde voce clica e o depoimento passa para o prox*/}
         <div className='c-depoimento flex justify-center bg-gray-800'>
-          <div className='ring-gradient-verde depoimento bg-transparent border-4 rounded text-white'>
+          <div className='ring-gradient-verde depoimento border-3 rounded text-white'>
               <h3>Nome da pessoa</h3>
               <p>depoimento da pessoa</p>
               <small>CEO de tal empresa</small>
           </div>
-          <div className='ring-gradient-verde depoimento bg-transparent border-4 rounded text-white'>
+          <div className='ring-gradient-verde depoimento border-4 rounded text-white'>
               <h3>Nome da pessoa</h3>
               <p>depoimento da pessoa</p>
               <small>CEO de tal empresa</small>
           </div>
-          <div className='ring-gradient-verde depoimento bg-transparent border-4 rounded text-white'>
+          <div className='ring-gradient-verde depoimento border-3 rounded text-white'>
               <h3>Nome da pessoa</h3>
               <p>depoimento da pessoa</p>
               <small>CEO de tal empresa</small>
