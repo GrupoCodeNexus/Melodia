@@ -19,13 +19,13 @@ const Home = () => {
       {/* Conteúdo sobre a imagem */}
           <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-white text-center px-4">
             <nav className="Nav absolute top-0 left-0 w-full flex items-center justify-between p-4 text-white">
-              <img src='https://avatars.githubusercontent.com/u/204507479?s=200&v=4'
+              <img src='../src/assets/logoMelo.png'
               alt='logo-melodia'/>
               <ul className="flex gap-6 items-center">
                 <li><a href='#' className='transition ease-out duration-700 hover:text-green-500'>Benefícios</a></li>
                 <li><a href='#' className='transition ease-out duration-700 hover:text-green-500'>Depoimentos</a></li>
                 <li><a href='#' className='transition ease-out duration-700 hover:text-green-500'>Contato</a></li>
-                <li><a href='#' className='btn-nav inline-block bg-green-600 rounded px-5 py-2 transition transform duration-300 hover:scale-105 bg-gradient-to-r from-cyan-800 to-lime-500 drop-shadow-lg hover:bg-green-800'>Planos</a></li>
+                <li><a href='#' className='btn-nav inline-block bg-green-600 rounded px-5 py-2 transition transform duration-300 hover:scale-105 bg-gradient-to-r from-cyan-800 to-lime-500 drop-shadow-lg'>Planos</a></li>
               </ul>
             </nav>
 

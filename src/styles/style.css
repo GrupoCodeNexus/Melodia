@@ -13,6 +13,10 @@
     margin-top: -4%;
 }
 
+.Nav img{
+    width: 200px;
+}
+
 
 /*Home*/
 .btn-perso{
@@ -31,13 +35,21 @@
 
 /*footer*/
 .c-rodape{
-    background-color: rgb(42, 165, 58);
+    padding: 50px;
 }
 
-.section-pdp{
-    background-color: rgb(18, 161, 18);
+.c-rodape h3{
+    margin-bottom: 10%;
 }
 
-.icons-socials{
-    background-color: rgb(42, 165, 63);
+.section-links-uteis{
+    margin: 0% 5% 0% 5%;
+}
+
+.section-pdp, .icons-socials a{
+    padding: 10px;
+}
+
+#seg{
+    margin: 0px 20px 0px 20px;
 }
