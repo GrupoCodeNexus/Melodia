@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faMusic, faUser, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   return (
@@ -45,7 +45,36 @@ const Home = () => {
         obs: devemos utilizar icones + tailwind aqui*/}
 
 
-        {/*TAILWIND/sessão funcionalidades*/}
+        {/*sessão funcionalidade>*/}
+      <div className='funcionalidades-container flex items-center bg-gray-800 justify-center gap-20'>
+      <div className='funcionalidade-card text-white border-2 border-green-200 bg-green-900 rounded text-center transition-all duration-300 ease-in-out hover-text-reveal'>
+        <FontAwesomeIcon icon={faMusic} size='lg' />
+        <h1 className='funcionalidades2'>Funcionalidades gratuitas</h1>
+        <div className='hover-text-container'>
+          <p className='hover-text'>
+             <li>Criar playlists personalizadas</li>
+             <li>Reprodução de músicas</li>
+              <li>Descoberta de conteúdos</li>
+              <li>Uso de playlists</li>
+          </p>
+        </div>
+      </div>
+
+      <div className='funcionalidade-card text-white border-2 border-green-200 bg-green-900 rounded text-center transition-all duration-300 ease-in-out hover-text-reveal'>
+        <FontAwesomeIcon icon={faMusic} size='lg' />
+        <h1 className='funcionalidades2'>Funcionalidades para inscritos</h1>
+        <div className='hover-text-container'>
+          <p className='hover-text'>
+          <li>Criar playlists personalizadas</li>
+          <li>Reprodução de músicas</li>
+          <li>Descoberta de conteúdos</li>
+          <li>Uso de playlists</li>
+          <li>Músicas sem anúncios</li>
+          <li>Áudio de alta qualidade</li>
+          </p>
+        </div>
+      </div>
+    </div>
 
 
         {/*sessão planos:*/}

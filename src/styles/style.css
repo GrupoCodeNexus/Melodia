@@ -90,3 +90,47 @@
 #seg{
     margin: 0px 20px 0px 20px;
 }
+.funcionalidades-container {
+    padding: 50px;
+  }
+  
+  .funcionalidade-card {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    width: 45%;
+  }
+  
+  .funcionalidades2 {
+    padding: 0px;
+    margin: 5% 0% 5% 0%;
+    font-size: 50px;
+    align-items: center;
+  }
+  
+  .hover-text-container {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .hover-text-reveal:hover .hover-text-container {
+    background-color: rgba(0, 0, 0, 0.7); 
+    opacity: 1; 
+  }
+  
+  .hover-text {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+  }
