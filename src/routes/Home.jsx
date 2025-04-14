@@ -55,6 +55,23 @@ const Home = () => {
         {/*TAILWIND/sessão depoimentos:
         podemos colocar cards em algum tipo de carrossel manual
         onde voce clica e o depoimento passa para o prox*/}
+        <div className='c-depoimento flex justify-center bg-gray-800'>
+          <div className='ring-gradient-verde depoimento bg-transparent border-4 rounded text-white'>
+              <h3>Nome da pessoa</h3>
+              <p>depoimento da pessoa</p>
+              <small>CEO de tal empresa</small>
+          </div>
+          <div className='ring-gradient-verde depoimento bg-transparent border-4 rounded text-white'>
+              <h3>Nome da pessoa</h3>
+              <p>depoimento da pessoa</p>
+              <small>CEO de tal empresa</small>
+          </div>
+          <div className='ring-gradient-verde depoimento bg-transparent border-4 rounded text-white'>
+              <h3>Nome da pessoa</h3>
+              <p>depoimento da pessoa</p>
+              <small>CEO de tal empresa</small>
+          </div>
+        </div>
 
         
         {/*TAILWIND/sessão contato:

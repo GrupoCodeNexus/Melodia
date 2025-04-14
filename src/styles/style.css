@@ -50,6 +50,24 @@
     padding: 10px;
 }
 
+
+
+
+
+
+.ring-gradient-verde {
+    border-image: linear-gradient(to right, green, lightgreen) 1;
+}
+
+.c-depoimento{
+    padding: 10px;
+    gap: 20px;
+}
+
+.depoimento{
+    padding: 10px;
+}
+
 #seg{
     margin: 0px 20px 0px 20px;
 }
