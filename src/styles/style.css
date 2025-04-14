@@ -142,3 +142,62 @@
 body{
     background-color: black;
 }
+//Carrossel
+
+.carrossel-container {
+    position: relative;
+    width: 100%; 
+    overflow: hidden;
+  }
+  
+.carrossel-wrapper {
+    display: flex;
+    transition: transform 0.4s ease-in-out; /* Adiciona uma transição suave */
+  }
+  
+  .carrossel-slide {
+    flex: 0 0 100%; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+  }
+  
+  .carrossel-slide > div { 
+    text-align: center; /* Centraliza o texto dentro do depoimento */
+    /* Você pode adicionar mais estilos aqui para limitar a largura do depoimento, etc. */
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 205%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10; 
+    padding:100px;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
+  .carrossel-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .prev-button:hover,
+.next-button:hover {
+  opacity: 0.8; 
+}
