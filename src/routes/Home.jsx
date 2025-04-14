@@ -33,7 +33,7 @@ const Home = () => {
 
           <h1 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-lime-500 drop-shadow-lg animate-pulse">Melodia</h1>
           <p className="text-xl mb-6">Sua Música, Sua Forma</p>
-          <button className="m-[4rem]">
+          <button className="rounded bg-gradient-to-r from-green-700 to-lime-700 btn-nav btn-perso hover:cursor-pointer">
             Ouvir Agora
           </button>
         </div>
@@ -46,10 +46,10 @@ const Home = () => {
 
 
         {/*sessão funcionalidade>*/}
-      <div className='funcionalidades-container flex items-center bg-gray-800 justify-center gap-20'>
-      <div className='funcionalidade-card text-white border-2 border-green-200 bg-green-900 rounded text-center transition-all duration-300 ease-in-out hover-text-reveal'>
+      <div className='funcionalidades-container flex items-center bg-black justify-center gap-20'>
+      <div className='shadow-[0_0_5px_#98FB98,0_0_10px_#98FB98,0_0_15px_#98FB98,0_0_20px_#98FB98] funcionalidade-card text-white bg-transparent rounded text-center transition-all duration-300 ease-in-out hover-text-reveal'>
         <FontAwesomeIcon icon={faMusic} size='lg' />
-        <h1 className='funcionalidades2'>Funcionalidades gratuitas</h1>
+        <h2 className='funcionalidades2'>Gratuito</h2>
         <div className='hover-text-container'>
           <p className='hover-text'>
              <li>Criar playlists personalizadas</li>
@@ -60,9 +60,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='funcionalidade-card text-white border-2 border-green-200 bg-green-900 rounded text-center transition-all duration-300 ease-in-out hover-text-reveal'>
+      <div className='shadow-[0_0_5px_#98FB98,0_0_10px_#98FB98,0_0_15px_#98FB98,0_0_20px_#98FB98] funcionalidade-card text-white bg-transparent rounded text-center transition-all duration-300 ease-in-out hover-text-reveal'>
         <FontAwesomeIcon icon={faMusic} size='lg' />
-        <h1 className='funcionalidades2'>Funcionalidades para inscritos</h1>
+        <h2 className='funcionalidades2'>Assinantes</h2>
         <div className='hover-text-container'>
           <p className='hover-text'>
           <li>Criar playlists personalizadas</li>
@@ -78,13 +78,13 @@ const Home = () => {
 
 
         {/*sessão planos:*/}
-        <div className='pad20 flex items-center bg-gray-800 justify-center gap-20'>
+        <div className='m-4 pad20 flex items-center bg-black justify-center gap-20'>
 
           <div className='pad20 text-white border-2 border-green-500 rounded text-center transition-transform duration-500 ease hover:scale-105'>
             <FontAwesomeIcon icon={faUser} size='lg'/>
             <h3 className='padm5'>Melô Individual</h3>
             <p>Desfrute de acesso ilimitado a todo o catálogo musical do Melô no seu próprio ritmo. Crie playlists personalizadas, ouça offline e descubra novos artistas e músicas. Uma experiência musical completa para um único usuário.</p>
-            <button className='btn-perso depoimento bg-green-500 rounded hover:bg-green-600'>Assinar</button>
+            <button className='btn-perso depoimento bg-green-600 rounded hover:bg-green-700 cursor-pointer'>Assinar</button>
           </div>
 
           <div className='pad20 text-white border-4 border-green-500 rounded text-center transition-transform duration-500 ease hover:scale-105'>
@@ -92,14 +92,14 @@ const Home = () => {
             <FontAwesomeIcon icon={faUser} size='lg'/>
             <h3 className='padm5'>Melô Duo</h3>
             <p>Perfeito para casais, amigos ou familiares que moram juntos. Dois perfis individuais com todos os benefícios do Melô Individual, permitindo que cada um explore suas preferências musicais sem interferir no outro. Uma forma econômica de compartilhar a paixão pela música.</p>
-            <button className='btn-perso depoimento bg-green-500 rounded hover:bg-green-600'>Assinar</button>
+            <button className='btn-perso depoimento bg-green-600 rounded hover:bg-green-700 cursor-pointer'>Assinar</button>
           </div>
 
           <div className='pad20 text-white border-2 border-green-500 rounded text-center transition-transform duration-500 ease hover:scale-105'>
             <FontAwesomeIcon icon={faUsers} size='lg'/>
             <h3 className='padm5'>Melô Família</h3>
             <p>Reúna toda a família com até seis contas individuais sob uma única assinatura. Cada membro terá seu próprio perfil, playlists e recomendações personalizadas. Uma solução acessível para que todos em casa aproveitem milhões de músicas.</p>
-            <button className='btn-perso depoimento bg-green-500 rounded hover:bg-green-600'>Assinar</button>
+            <button className='btn-perso depoimento bg-green-600 rounded hover:bg-green-700 cursor-pointer'>Assinar</button>
           </div>
         </div>
 
@@ -108,7 +108,7 @@ const Home = () => {
         {/*TAILWIND/sessão depoimentos:
         podemos colocar cards em algum tipo de carrossel manual
         onde voce clica e o depoimento passa para o prox*/}
-        <div className='c-depoimento flex justify-center bg-gray-800'>
+        <div className='c-depoimento flex justify-center bg-black'>
           <div className='ring-gradient-verde depoimento border-3 rounded text-white'>
               <h3>Nome da pessoa</h3>
               <p>depoimento da pessoa</p>
