@@ -8,7 +8,7 @@
 - Tailwind
 - CSS
 - HTML
-- Google Fonts + Font Awesome
+- Google Fonts + Font Awesome 
 
 ## Links úteis
 - Repositório: https://github.com/GrupoCodeNexus/Melodia
