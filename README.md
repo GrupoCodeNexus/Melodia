@@ -1,16 +1,16 @@
-# Melodia
+# Melodia🎶
 
-## Objetivo
+## 🎯Objetivo
 - Desenvolver uma Landing Page para o App de músicas Melodia
 
-## Tecnologias Utilizadas
+## 💻Tecnologias Utilizadas
 - ReactJS
 - Tailwind
 - CSS
 - HTML
 - Google Fonts + Font Awesome
 
-## Desenvolvedores
+## 🧑‍💻Desenvolvedores
 - Francisco Vargas
 - Matheus Eiki
 - Marcelo Affonso
