@@ -10,6 +10,10 @@
 - HTML
 - Google Fonts + Font Awesome
 
+## Links úteis
+- Repositório: https://github.com/GrupoCodeNexus/Melodia
+- Vercel: https://melodia-navy.vercel.app/
+
 ## 🧑‍💻Desenvolvedores
 - Francisco Vargas
 - Matheus Eiki
