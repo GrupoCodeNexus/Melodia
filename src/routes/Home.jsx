@@ -104,15 +104,9 @@ const Home = () => {
           </div>
         </div>
 
-        {/*TAILWIND/sessão depoimentos:
-        podemos colocar cards em algum tipo de carrossel manual
-        onde voce clica e o depoimento passa para o prox*/}
         <div className='c-depoimentos flex justify-center bg-black py-10'>
           <CarrosselManual />
         </div>
-
-        {/*TAILWIND/sessão contato:
-        fazer um formulário para coletar emails via Tailwind*/}
       </main>
     </>
   )

@@ -53,7 +53,7 @@ function CarrosselManual() {
           </div>
         ))}
       </div>
-      <div className="flex justify-center mt-4 space-x-4"> {/* Adicionando o espaço entre os botões */}
+      <div className="padm5 flex justify-center mt-4 space-x-4 c-depoimento"> {/* Adicionando o espaço entre os botões */}
         <button
           onClick={goToPrevious}
           className="px-6 py-2 bg-green-600 text-white rounded-lg transition duration-300 hover:bg-green-700"

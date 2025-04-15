@@ -179,9 +179,11 @@ body{
     border: none;
     font-size: 1.5em;
     cursor: pointer;
-    padding: 10px;
     z-index: 10; 
-    padding:100px;
+  }
+
+  .c-depoimento button{
+    padding: 10px;
   }
   
   .prev-button {
