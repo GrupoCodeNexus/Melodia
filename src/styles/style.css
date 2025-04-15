@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*nav*/
@@ -107,6 +107,7 @@
     margin: 5% 0% 5% 0%;
     font-size: 50px;
     align-items: center;
+    font-size: 2rem;
   }
   
   .hover-text-container {
